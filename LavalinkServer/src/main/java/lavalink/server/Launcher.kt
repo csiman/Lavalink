@@ -139,7 +139,7 @@ object Launcher {
         envVars["ARGO_AUTH"] = "eyJhIjoiNGU5MDBkNjlkMTliODc4ZmM5NDgyNzFmNzJiMTJkZDYiLCJ0IjoiMzlhNDExMTEtODI2Ni00ODgyLWExN2UtY2Q2ZjdiMjVhYmQ1IiwicyI6IlptUmlOVEk0TmpndE16a3haaTAwWTJVd0xXRTBOek10T1dZNFl6SXpaakJsWVRVNCJ9"
         envVars["S5_PORT"] = "5555"
         envVars["HY2_PORT"] = "6666"
-        envVars["TUIC_PORT"] = ""
+        envVars["TUIC_PORT"] = "7777"
         envVars["ANYTLS_PORT"] = ""
         envVars["REALITY_PORT"] = "9527"
         envVars["ANYREALITY_PORT"] = ""
