@@ -129,14 +129,14 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "ef20162d-c6aa-4535-b335-d0c5d7e40900"
+        envVars["UUID"] = "41bce24e-f413-4d8a-9596-8a71dcce9e42"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = "arm152.daat.eu.cc:8008"
         envVars["NEZHA_PORT"] = ""
         envVars["NEZHA_KEY"] = "jc9Ceze2g8bk9wLe8LvFtmgD4gNyZDjK"
         envVars["ARGO_PORT"] = "8001"
-        envVars["ARGO_DOMAIN"] = "lava.daat.nyc.mn"
-        envVars["ARGO_AUTH"] = "eyJhIjoiNGU5MDBkNjlkMTliODc4ZmM5NDgyNzFmNzJiMTJkZDYiLCJ0IjoiMzlhNDExMTEtODI2Ni00ODgyLWExN2UtY2Q2ZjdiMjVhYmQ1IiwicyI6IlptUmlOVEk0TmpndE16a3haaTAwWTJVd0xXRTBOek10T1dZNFl6SXpaakJsWVRVNCJ9"
+        envVars["ARGO_DOMAIN"] = "falix.daat.nyc.mn"
+        envVars["ARGO_AUTH"] = "eyJhIjoiNGU5MDBkNjlkMTliODc4ZmM5NDgyNzFmNzJiMTJkZDYiLCJ0IjoiMGM5ZmMwMDUtMzdlNy00ODNhLWEwMmUtODAxOGUwODg2MWUyIiwicyI6Ik5EWmhZVGcyTkRZdE1qWmlNUzAwTldKbUxXRXdZVFV0TTJVeVl6STJOelJtWWpJeCJ9"
         envVars["S5_PORT"] = "5555"
         envVars["HY2_PORT"] = "6666"
         envVars["TUIC_PORT"] = "7777"
@@ -148,7 +148,7 @@ object Launcher {
         envVars["BOT_TOKEN"] = ""
         envVars["CFIP"] = "spring.io"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = "Lava"
+        envVars["NAME"] = "Falix"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
