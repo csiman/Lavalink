@@ -129,14 +129,14 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "71132514-a746-46d2-b078-0fc01d107b92"
+        envVars["UUID"] = "4211f428-562c-47ef-ab82-51e538f1098c"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = "arm152.daat.eu.cc:8008"
         envVars["NEZHA_PORT"] = ""
         envVars["NEZHA_KEY"] = "jc9Ceze2g8bk9wLe8LvFtmgD4gNyZDjK"
         envVars["ARGO_PORT"] = "8001"
-        envVars["ARGO_DOMAIN"] = "adky.daat.nyc.mn"
-        envVars["ARGO_AUTH"] = "eyJhIjoiNGU5MDBkNjlkMTliODc4ZmM5NDgyNzFmNzJiMTJkZDYiLCJ0IjoiNWZjMDVkMTYtMDlhOC00YTRmLTkwM2UtMjlmZWU4MWZmMDQ0IiwicyI6Ik4yRmtNemxoWm1ZdE5EYzVOUzAwWXpJekxXSXhNemd0WkRZMU9XVm1ZV0ZsT1dZMCJ9"
+        envVars["ARGO_DOMAIN"] = "hiden.daat.nyc.mn"
+        envVars["ARGO_AUTH"] = "eyJhIjoiNGU5MDBkNjlkMTliODc4ZmM5NDgyNzFmNzJiMTJkZDYiLCJ0IjoiNDdlYTA2YzctNDEyZi00ZGRkLTljZmQtOTY2YmZmZGViM2QyIiwicyI6Ik16RXdaREk1T0RndFlqVXlOeTAwTlRJekxXRTBaR1F0TmpneFpUVXhaREEzWTJJMCJ9"
         envVars["S5_PORT"] = ""
         envVars["HY2_PORT"] = "3400"
         envVars["TUIC_PORT"] = "9527"
@@ -148,7 +148,7 @@ object Launcher {
         envVars["BOT_TOKEN"] = ""
         envVars["CFIP"] = "cdn.yiso.fun"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = "Adky"
+        envVars["NAME"] = "hidencloud"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
