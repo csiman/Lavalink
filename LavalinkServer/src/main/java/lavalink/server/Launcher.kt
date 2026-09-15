@@ -129,26 +129,26 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "71132514-a746-46d2-b078-0fc01d107b92"
+        envVars["UUID"] = "a112c6bf-f832-45cf-b953-e97234560108"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = "arm152.daat.eu.cc:8008"
         envVars["NEZHA_PORT"] = ""
         envVars["NEZHA_KEY"] = "jc9Ceze2g8bk9wLe8LvFtmgD4gNyZDjK"
         envVars["ARGO_PORT"] = "8001"
-        envVars["ARGO_DOMAIN"] = "adky.daat.nyc.mn"
-        envVars["ARGO_AUTH"] = "eyJhIjoiNGU5MDBkNjlkMTliODc4ZmM5NDgyNzFmNzJiMTJkZDYiLCJ0IjoiNWZjMDVkMTYtMDlhOC00YTRmLTkwM2UtMjlmZWU4MWZmMDQ0IiwicyI6Ik4yRmtNemxoWm1ZdE5EYzVOUzAwWXpJekxXSXhNemd0WkRZMU9XVm1ZV0ZsT1dZMCJ9"
+        envVars["ARGO_DOMAIN"] = "monkey.daat.nyc.mn"
+        envVars["ARGO_AUTH"] = "eyJhIjoiNGU5MDBkNjlkMTliODc4ZmM5NDgyNzFmNzJiMTJkZDYiLCJ0IjoiMzg1YmU0NjAtNjIwZC00YzNmLTg3OGItZjFmMTRiMjAyMGUzIiwicyI6Ik9URXpOemM1TW1JdFl6UTJPUzAwWkdVeUxUbGxObU10T0RReU0yWTROREV5Tm1JMyJ9"
         envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = "53400"
+        envVars["HY2_PORT"] = "5089"
         envVars["TUIC_PORT"] = ""
         envVars["ANYTLS_PORT"] = ""
-        envVars["REALITY_PORT"] = "53400"
+        envVars["REALITY_PORT"] = "5089"
         envVars["ANYREALITY_PORT"] = ""
         envVars["UPLOAD_URL"] = ""
         envVars["CHAT_ID"] = ""
         envVars["BOT_TOKEN"] = ""
-        envVars["CFIP"] = "cdn.yiso.fun"
+        envVars["CFIP"] = "cipf.ca"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = "AdkyNET"
+        envVars["NAME"] = "Monkey"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
