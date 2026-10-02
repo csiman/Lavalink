@@ -125,14 +125,13 @@ tasks {
 
     val nativesJar = create<Jar>("lavaplayerNativesJar") {
         // Only add musl natives
-        from(configurations.runtimeClasspath.get().find { it.name.contains("lavaplayer-natives") }?.let { file ->
-            zipTree(file).matching {
+        configurations.runtimeClasspath.get().find { it.name.contains("lavaplayer-natives") }?.let { file ->
+            from(zipTree(file).matching {
                 include {
                     it.path.contains("musl")
                 }
-            }
-        })
-
+            })
+        }
         archiveBaseName = "lavaplayer-natives"
         archiveClassifier = "musl"
     }
